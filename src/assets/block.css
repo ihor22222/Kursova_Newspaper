@@ -1,0 +1,4068 @@
+
+
+.pwir {
+    margin: 0 0 13px;
+    font-size: 60px;
+    line-height: 1.15;
+    color: #222;
+}
+
+.dash {
+    text-align: center;
+}
+
+.dash p {
+    margin: 0 0 13px;
+    margin-bottom: 70px;
+    font-size: 60px;
+    line-height: 1.15;
+}
+
+.btIconImageRow.btIconsHalfHoverPosition .btIco.btIcoBigSize {
+    display: none;
+    display: none;
+    margin-top: -40px;
+    margin-bottom: 8px;
+}
+
+.header.medium .btSuperTitle {
+    margin: 26px 0 12px !important;
+}
+
+.dash p {
+    margin: 0 0 13px;
+    margin-bottom: 11px;
+    font-size: 60px;
+    line-height: 1.15;
+    text-align: left;
+}
+
+.names {
+    text-align: left;
+}
+
+.footer-tel {
+    margin-top: -20px;
+}
+
+.my_contact {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.adress__tue {
+    margin-top: -5px !important;
+}
+
+.foot__left {
+    float: left;
+}
+
+@media screen and (max-width: 560px) {
+    .foot__left {
+        float: center !important;
+    }
+
+    .header .dash {
+        padding-left: 25px;
+    }
+}
+
+.back__top {
+    width: 20px;
+    height: 20px;
+    background-color: #52bed6;
+    border-radius: 50%;
+}
+
+.btDarkSkin .btSiteFooter .menu li.btPageTop a:after,
+.btDarkSkin .btSiteFooter .menu li.btPageTop a:before {
+    margin-right: 5px;
+}
+
+.btDarkSkin a, .btLightSkin .btDarkSkin a {
+    padding-top: 3px;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+    /* 1 */
+    font-size: 1em;
+
+    /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+    /* 1 */
+    margin: 0;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+
+    /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+    /* 2 */
+    display: table;
+    box-sizing: border-box;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 1 */
+    color: inherit;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+    /* 1 */
+    outline-offset: -2px;
+    -webkit-appearance: textfield;
+    /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+    /* 1 */
+    font: inherit;
+    -webkit-appearance: button;
+    /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+    display: none;
+}
+
+/* Slider */
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+    content: '';
+    display: table;
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+.section__hr {
+    width: 100%;
+    max-width: 1035px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section__hr hr {
+    margin: 5px 0;
+    border: solid 1px #c1cdb8;
+}
+
+.section__img {
+    width: 100%;
+    margin-top: 54px;
+    text-align: center;
+}
+
+.section__title {
+    margin-top: 27px;
+}
+
+.section__title h1 {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 1.24;
+    text-align: center;
+    color: #262626;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.section__title h2 {
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7d7d7d;
+    text-transform: uppercase;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 2.4px;
+}
+
+.section__set-box {
+    width: 100%;
+    margin-top: 63px;
+    text-align: center;
+}
+
+.section__set-box img {
+    margin: 0 11.5px;
+}
+
+.bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    margin-top: 64px;
+    background-color: #3f5b2c;
+}
+
+.bottom::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    bottom: 22px;
+    left: 22px;
+    border: 1px solid white;
+}
+
+.bottom .bottom__border h3 {
+    font-weight: normal;
+    font-size: 26.5px;
+    line-height: 1.58;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 560px) {
+    .bottom .bottom__border h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .bottom .bottom__border h3 {
+        padding: 20px;
+    }
+}
+
+.bottom .bottom__border h3 span {
+    font-style: italic;
+}
+
+.section__slider {
+    margin-top: 46px;
+}
+
+.section__slider .slider__item {
+    margin: 0 18px;
+}
+
+@media screen and (max-width: 560px) {
+    .section__slider .slider__item {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .section__slider .slider__item img {
+        width: 100%;
+    }
+}
+
+.slider-arrows {
+    position: absolute;
+    bottom: 43%;
+    padding: 12px 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-arrows {
+        bottom: 65%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .slider-arrows {
+        display: none;
+    }
+}
+
+.prev {
+    left: 0;
+    z-index: 1;
+    margin-left: -55px;
+}
+
+@media screen and (max-width: 560px) {
+    .prev {
+        display: none;
+    }
+}
+
+.next {
+    right: 0;
+    margin-right: -55px;
+}
+
+@media screen and (max-width: 560px) {
+    .next {
+        display: none;
+    }
+}
+
+.btLightSkin .vibers-icon {
+    position: relative;
+    margin-left: 10px;
+}
+
+.btLightSkin .vibers-icon::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -20px;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/viber.svg");
+    background-repeat: no-repeat;
+}
+
+.btDarkSkin .vibers-icon {
+    position: relative;
+    margin-left: 10px;
+}
+
+.btDarkSkin .vibers-icon::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -20px;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/viber-w.svg") !important;
+    background-repeat: no-repeat;
+}
+
+.block__oftalmolog {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 560px) {
+    .block__oftalmolog {
+        flex-direction: column;
+    }
+}
+
+.block__oftalmolog .img__right {
+    text-align: right;
+}
+
+@media screen and (max-width: 560px) {
+    .block__oftalmolog .img__right {
+        order: 1;
+    }
+}
+
+.block__oftalmolog .img__left {
+    text-align: left;
+}
+
+@media screen and (max-width: 560px) {
+    .block__oftalmolog .img__left {
+        order: 2;
+    }
+}
+
+.price__flex .price__flex-left {
+    width: 100%;
+}
+
+.price__flex .price__flex-right {
+    width: 100%;
+}
+
+.price__flex .price__flex-right li {
+    width: auto;
+    font-size: 20px !important;
+    text-align: left;
+}
+
+.price__flex .price__flex-right li span {
+    text-align: left !important;
+}
+
+.price__flex-left-box {
+    position: relative;
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.price__flex-left-box .left-box {
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.price__flex-left-box .right-box {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.btPriceTable ul li span {
+    margin: 0 !important;
+}
+
+.btPriceTable ul li {
+    padding: 15px 20px !important;
+}
+
+.btArticleDate:not(:last-child):after {
+    display: none;
+}
+
+.contact__left {
+    text-align: left;
+}
+
+.contact__center {
+    float: none !important;
+}
+
+.text__oft-padding {
+    padding: 0 !important;
+}
+
+
+.margin__top {
+    margin-top: 85px !important;
+}
+
+.otzivy__oftalmologia .wpd-form-head {
+    display: none !important;
+}
+
+#wpdcom .wpd-form-head .otzivy__oftalmologia .wc_comment {
+    height: 150px !important;
+    margin-top: 5px !important;
+}
+
+.otzivy__oftalmologia .wc_email,
+.wc_name {
+    height: 50px !important;
+    padding-top: 10px !important;
+}
+
+.otzivy__oftalmologia .wpd-textarea-wrap {
+    flex-basis: 100% !important;
+}
+
+.otzivy__oftalmologia #wpdcom i {
+    margin-top: 7px !important;
+}
+
+.otzivy__oftalmologia .wc-field-submit {
+    justify-content: flex-start !important;
+}
+
+.otzivy__oftalmologia .wc-field-submit input[type="submit"] {
+    margin-left: 0px !important;
+}
+
+.otzivy__oftalmologia .wpdiscuz-item {
+    padding-top: 15px !important;
+}
+
+.otzivy__oftalmologia .wpd-field-icon {
+    top: 22px !important;
+}
+
+.name__pac {
+    font-size: 30px !important;
+    min-height: 100px;
+}
+
+.map__div {
+    min-height: 500px !important;
+    max-height: 500px !important;
+}
+
+.bt_bb_wrapper {
+    font-size: 17px !important;
+}
+
+.btArticleListBodyContent p {
+    font-size: 17px !important;
+}
+
+.photo__top {
+    margin-top: 50px !important;
+}
+
+.foot__top {
+    margin-top: -6px;
+}
+
+.otzivy__oftalmologia .wpd_label__check {
+    display: none !important;
+}
+
+@media screen and (max-width: 560px) {
+    .uslugi {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .uslugi__text {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .uslugi__text {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .uslugi__text {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .logo-footer-a {
+        display: none;
+    }
+}
+
+.logo-footer-box {
+    display: none;
+}
+
+@media screen and (max-width: 560px) {
+    .logo-footer-box {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .logo-footer-box {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .logo-footer-box {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .icon_c {
+        text-align: center;
+    }
+}
+
+.oftak__tit {
+    font-size: 18px !important;
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .menuHolder .logo {
+        margin: 0 0 23px 90px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .menuHolder .logo {
+        margin: 0 0 23px 75px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menuHolder .logo {
+        margin: 0 0 23px 45px;
+    }
+}
+
+.btGmap {
+    height: 620px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 560px) {
+    .btGmap {
+        height: 225px;
+    }
+}
+
+.btTwoColFooterMenu.btCustomMenu ul li a {
+    font-weight: 400 !important;
+}
+
+.desktop {
+    position: relative;
+}
+
+@media screen and (max-width: 560px) {
+    .desktop {
+        display: none;
+    }
+}
+
+.desktop iframe {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 639px !important;
+}
+
+.mob {
+    display: none !important;
+}
+
+@media screen and (max-width: 560px) {
+    .mob {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contact__desktop {
+        display: none;
+    }
+}
+
+.contact__mob {
+    display: none !important;
+}
+
+@media screen and (max-width: 560px) {
+    .contact__mob {
+        display: block !important;
+    }
+}
+
+.headline {
+    text-align: left !important;
+}
+
+.topBarInLogoArea {
+    margin-top: 16px;
+}
+
+
+.topTools .btIconWidget .btIcoHolder:before, .topTools .btIconWidget .btIcoHolder:after, .menuPort .btIconWidget .btIcoHolder:before, .menuPort .btIconWidget .btIcoHolder:after, .fooWidgets .btIconWidget .btIcoHolder:before, .fooWidgets .btIconWidget .btIcoHolder:after {
+    font-size: 18px;
+}
+
+.button__seo-text {
+    letter-spacing: 0.8px !important;
+}
+
+.btBtn, .wpcf7-form input:not([type='checkbox']):not([type='radio']).wpcf7-submit {
+    letter-spacing: 0.8px !important;
+}
+
+.btnSmall, .btnExtraSmall {
+    font-size: 13px !important;
+}
+
+.btnMedium {
+    font-size: 16px !important;
+}
+
+.btText {
+    letter-spacing: 0.8px !important;
+}
+
+
+
+.btSiteFooter .menu li {
+    font-size: 15px !important;
+}
+
+
+
+.menuHolder .logo img {
+    height: 80px !important;
+}
+
+.price__flex-left-box {
+    font-size: 20px !important;
+}
+
+.lang-item {
+    display: flex;
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.topBarInMenuCell {
+    display: flex;
+}
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    width: 1em !important;
+    height: 1em !important;
+    margin: 0 .07em !important;
+    padding: 0 !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+a:hover {
+    color: #0da8bc;
+}
+
+select,
+
+
+
+
+
+a:hover {
+    color: #0da8bc;
+}
+
+.btLoader {
+    border-right: 2px solid #0da8bc;
+}
+
+
+
+.btPageHeadline header .dash .headline:after {
+    background: #0da8bc;
+}
+
+.btAccentColorBackground {
+    background-color: #0da8bc !important;
+}
+
+.btAleternateColorBackground {
+    background-color: #f95759 !important;
+}
+
+.topTools .btIconWidgetIcon:hover .btIco .btIcoHolder em,
+.btIconWidget .btIconWidgetIcon:hover .btIco .btIcoHolder em {
+    color: #0da8bc !important;
+}
+
+
+
+.menuPort nav ul li a:hover {
+    color: #0da8bc !important;
+}
+
+.menuPort nav > ul > li.menu-item-has-children > a:before {
+    border-bottom: 6px solid #0da8bc;
+}
+
+.btMenuHorizontal .menuPort nav > ul > li.current-menu-ancestor > a,
+.btMenuHorizontal .menuPort nav > ul > li.current-menu-item > a {
+    box-shadow: 0 -3px 0 0 #0da8bc inset;
+}
+
+.btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-ancestor > a,
+.btMenuHorizontal .menuPort nav > ul > li > ul li.current-menu-item > a {
+    color: #0da8bc !important;
+}
+
+.btMenuVertical nav li.current-menu-ancestor > a,
+.btMenuVertical nav li.current-menu-item > a {
+    color: #0da8bc !important;
+}
+
+.subToggler:before {
+    color: #0da8bc;
+}
+
+body.btMenuHorizontal .menuPort ul ul li:first-child > a {
+    border-top: 3px solid #0da8bc;
+}
+
+body.btMenuHorizontal .menuPort > nav > ul > li.btMenuWideDropdown > ul > li > a,
+body.btMenuHorizontal .menuPort > nav > ul > li.btMenuWideDropdown > ul > li:first-child > a {
+    border-top: 3px solid #0da8bc;
+}
+
+.btVerticalMenuTrigger:hover .btIco:before,
+.btVerticalMenuTrigger:hover .btIco:after {
+    border-top-color: #0da8bc;
+}
+
+.btVerticalMenuTrigger:hover .btIco .btIcoHolder:after {
+    border-top-color: #0da8bc;
+}
+
+@media (min-width: 1200px) {
+    .btMenuVerticalOn .btVerticalMenuTrigger .btIco a:before {
+        color: #0da8bc !important;
+    }
+}
+
+.topBar .widget_search button:hover:before,
+.topBarInMenu .widget_search button:hover:before {
+    color: #0da8bc;
+}
+
+.btDarkSkin .topBar .widget_search button:hover:before,
+.btDarkSkin .topBarInMenu .widget_search button:hover:before,
+.btLightSkin .btDarkSkin .topBar .widget_search button:hover:before,
+.btLightSkin .btDarkSkin .topBarInMenu .widget_search button:hover:before {
+    color: #0da8bc;
+}
+
+.btLightSkin button:hover:before,
+.btDarkSkin .btLightSkin button:hover:before {
+    color: #0da8bc;
+}
+
+.topBarInLogoAreaCell {
+    border: 0 solid #0da8bc;
+}
+
+.topBarInLogoAreaCell .btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:before,
+.topBarInLogoAreaCell .btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:after {
+    color: #f95759;
+}
+
+.topTools.btTopToolsLeft .btIco .btIcoHolder {
+    background-color: #0da8bc;
+}
+
+.topTools.btTopToolsLeft .btIco .btIcoHolder:hover {
+    background-color: #f95759;
+}
+
+.topTools.btTopToolsLeft .btSpecialHeaderIcon .btIco .btIcoHolder {
+    background-color: #f95759;
+}
+
+.topTools.btTopToolsLeft .btSpecialHeaderIcon .btIco .btIcoHolder:hover {
+    background-color: #0da8bc;
+}
+
+.infoToggler:before {
+    background-color: #0da8bc;
+    border: 1px solid #0da8bc;
+}
+
+.infoToggler:after {
+    color: #0da8bc;
+    border: 1px solid #0da8bc;
+}
+
+.infoToggler.on:after {
+    background-color: #0da8bc;
+}
+
+.infoToggler.on:before {
+    color: #0da8bc;
+}
+
+.btSiteFooter .menu li.btPageTop a:after,
+.btSiteFooter .menu li.btPageTop a:before {
+    color: #f95759;
+}
+
+.btSiteFooter .menu a:hover {
+    color: #0da8bc;
+}
+
+.btCustomMenu ul li a:hover {
+    color: #0da8bc;
+}
+
+.btCustomMenu ul li.btPageTop a:after {
+    color: #f95759;
+}
+
+.btInlineFooterMenu.btCustomMenu ul > li > a {
+    color: #0da8bc;
+}
+
+.btFooterWrap.btDarkSkin .btBox h4 .headline a:hover,
+.btFooterWrap.btLightSkin .btBox h4 .headline a:hover {
+    color: #0da8bc;
+}
+
+#boldSiteFooterWidgetsRow .btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:before,
+#boldSiteFooterWidgetsRow .btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:after {
+    color: #f95759;
+}
+
+.sticky .headline {
+    color: #0da8bc;
+}
+
+.headline a {
+    color: #0da8bc;
+}
+
+.single-portfolio h1,
+.single-post h1,
+.single-portfolio h2,
+.single-post h2 {
+    color: #0da8bc;
+}
+
+.portfolioItem dt,
+.btPortfolioSingleItemColumns dt {
+    color: #0da8bc;
+}
+
+.btArticleListItem.btBlogColumnView .btArticleListBodyAuthor a,
+.btPostSingleItemColumns .btArticleListBodyAuthor a {
+    color: #0da8bc !important;
+}
+
+.commentTxt p.edit-link a:hover,
+.commentTxt p.reply a:hover {
+    color: #0da8bc;
+}
+
+
+.btBox > h4:after {
+    background-color: #0da8bc;
+}
+
+.btBox ul li a:hover {
+    color: #0da8bc;
+}
+
+
+
+.btBox.widget_archive ul li a:hover,
+.btBox.widget_categories ul li a:hover,
+.btCustomMenu ul li a:hover {
+    border-bottom: 1px solid #0da8bc;
+}
+
+.btDarkSkin .btBox.widget_archive ul li a:hover,
+.btLightSkin .btDarkSkin .btBox.widget_archive ul li a:hover,
+.btDarkSkin .btBox.widget_categories ul li a:hover,
+.btLightSkin .btDarkSkin .btBox.widget_categories ul li a:hover {
+    border-bottom: 1px solid #0da8bc;
+}
+
+
+.btBox.widget_rss li cite:before {
+    color: #0da8bc;
+}
+
+.btBox .btSearch button,
+.btBox .btSearch input[type=submit],
+form.woocommerce-product-search button,
+form.woocommerce-product-search input[type=submit] {
+    background: #0da8bc;
+}
+
+.btBox .btSearch button:hover,
+form.woocommerce-product-search button:hover {
+    background: #086874;
+}
+
+form.wpcf7-form input[type="text"],
+form.wpcf7-form input[type="password"],
+form.wpcf7-form input[type="email"],
+form.wpcf7-form input[type="date"],
+form.wpcf7-form textarea,
+
+
+form.wpcf7-form input[type="text"]:focus,
+form.wpcf7-form input[type="password"]:focus,
+form.wpcf7-form input[type="email"]:focus,
+form.wpcf7-form input[type="date"]:focus,
+form.wpcf7-form textarea:focus,
+form.wpcf7-form .fancy-select .trigger.open {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+form.wpcf7-form p span.required:after,
+form.wpcf7-form p span.bt_bb_required:after {
+    color: #0da8bc !important;
+}
+
+form.wpcf7-form .wpcf7-submit {
+    background-color: #0da8bc;
+}
+
+form.wpcf7-form .wpcf7-submit:hover {
+    background: #f60d10;
+}
+
+.fancy-select ul.options > li:hover {
+    color: #0da8bc;
+}
+
+.btBox .tagcloud a,
+.btTags ul a {
+    background: #0da8bc;
+}
+
+.btBox .tagcloud a:hover,
+.btTags ul a:hover {
+    background: #086874;
+}
+
+.recentTweets small:before {
+    color: #0da8bc;
+}
+
+
+.btContentHolder table tr th,
+.btContentHolder table thead tr th {
+    background: #0da8bc;
+}
+
+
+
+.btPagination .paging a:hover:after {
+    background: #0da8bc;
+}
+
+.articleSideGutter a {
+    color: #0da8bc;
+}
+
+
+
+a#cancel-comment-reply-link:hover {
+    color: #0da8bc;
+}
+
+span.btHighlight {
+    background-color: #0da8bc;
+}
+
+a.btContinueReading {
+    background: #0da8bc;
+}
+
+a.btContinueReading:hover {
+    background: #086874;
+}
+
+.btIco .btIcoHolder:before,
+.btIco .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btDarkSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:before,
+.btDarkSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:after,
+.btLightSkin .btDarkSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:before,
+.btLightSkin .btDarkSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btLightSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:before,
+.btLightSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:after,
+.btDarkSkin .btLightSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:before,
+.btDarkSkin .btLightSkin .btTopToolsRight .btIconWidget:hover .btIco .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btIco.btIcoWhiteType .btIcoHolder em {
+    color: #0da8bc;
+}
+
+.btIco.btIcoFilledType.btIcoAccentColor .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAccentColor:hover .btIcoHolder em {
+    box-shadow: 0 0 0 1em #0da8bc inset;
+}
+
+.btIco.btIcoFilledType.btIcoAccentColor:hover .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAccentColor .btIcoHolder em {
+    box-shadow: 0 0 0 1px #0da8bc inset;
+}
+
+.btIco.btIcoFilledType.btIcoAccentColor:hover .btIcoHolder:before,
+.btIco.btIcoFilledType.btIcoAccentColor:hover .btIcoHolder:after,
+.btIco.btIcoOutlineType.btIcoAccentColor .btIcoHolder:before,
+.btIco.btIcoOutlineType.btIcoAccentColor .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btIco.btIcoFilledType.btIcoAccentColor.btIcoBigSize:hover .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAccentColor.btIcoBigSize .btIcoHolder em {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+.btIco.btIcoFilledType.btIcoAlterColor .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAlterColor:hover .btIcoHolder em {
+    box-shadow: 0 0 0 1em #f95759 inset;
+}
+
+.btIco.btIcoFilledType.btIcoAlterColor:hover .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAlterColor .btIcoHolder em {
+    box-shadow: 0 0 0 1px #f95759 inset;
+}
+
+.btIco.btIcoFilledType.btIcoAlterColor:hover .btIcoHolder:before,
+.btIco.btIcoFilledType.btIcoAlterColor:hover .btIcoHolder:after,
+.btIco.btIcoOutlineType.btIcoAlterColor .btIcoHolder:before,
+.btIco.btIcoOutlineType.btIcoAlterColor .btIcoHolder:after {
+    color: #f95759;
+}
+
+.btIco.btIcoFilledType.btIcoAlterColor.btIcoBigSize:hover .btIcoHolder em,
+.btIco.btIcoOutlineType.btIcoAlterColor.btIcoBigSize .btIcoHolder em {
+    box-shadow: 0 0 0 2px #f95759 inset;
+}
+
+.btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+.btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:after,
+.btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:after,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:after,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:before,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAccentColor .btIcoHolder:after,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btLightSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:before,
+.btLightSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:after,
+.btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:before,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:after,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btDarkSkin .btLightSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:before,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:after,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:before,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoAlterColor .btIcoHolder:after,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btLightSkin .btDarkSkin .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after {
+    color: #f95759;
+}
+
+.btAccentColorBackground .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:before,
+.btAccentColorBackground .btIco.btIcoDefaultType.btIcoDefaultColor:hover .btIcoHolder:after {
+    color: #f95759 !important;
+}
+
+.btIcoAccentColor span {
+    color: #0da8bc;
+}
+
+.btIcoAlterColor span {
+    color: #f95759;
+}
+
+.btIcoDefaultColor:hover span,
+.btIcoDefaultColor:hover a.btIcoHolder:after {
+    color: #0da8bc !important;
+}
+
+.btCircleIcon.btAccentColorCircle.btFilledCircle,
+.btCircleIcon.btAccentColorCircle.btFilledCircle:hover {
+    background-color: #0da8bc;
+    border-color: #0da8bc;
+}
+
+.btCircleIcon.btAccentColorCircle.btHollowCircle,
+.btCircleIcon.btAccentColorCircle.btHollowCircle:hover {
+    color: #0da8bc;
+    border-color: #0da8bc;
+}
+
+.btCircleIcon.btAlternateColorCircle.btFilledCircle,
+.btCircleIcon.btAlternateColorCircle.btFilledCircle:hover {
+    background-color: #f95759;
+    border-color: #f95759;
+}
+
+.btCircleIcon.btAlternateColorCircle.btHollowCircle,
+.btCircleIcon.btAlternateColorCircle.btHollowCircle:hover {
+    color: #f95759;
+    border-color: #f95759;
+}
+
+.btnFilledStyle.btnAccentColor,
+.btnOutlineStyle.btnAccentColor:hover {
+    background-color: #0da8bc;
+    border: 2px solid #0da8bc;
+}
+
+.btnFilledStyle.btnAlternateColor,
+.btnOutlineStyle.btnAlternateColor:hover {
+    background-color: #f95759;
+    border: 2px solid #f95759;
+}
+
+.btnFilledStyle.btnAccentColor:hover {
+    background-color: #086874;
+    border: 2px solid #086874;
+}
+
+.btnFilledStyle.btnAlternateColor:hover {
+    background-color: #f60d10;
+    border: 2px solid #f60d10;
+}
+
+.btnOutlineStyle.btnAccentColor {
+    color: #0da8bc;
+    border: 2px solid #0da8bc;
+}
+
+.btnOutlineStyle.btnAccentColor span,
+.btnOutlineStyle.btnAccentColor span:before,
+.btnOutlineStyle.btnAccentColor a,
+.btnOutlineStyle.btnAccentColor .btIco a:before,
+.btnOutlineStyle.btnAccentColor button {
+    color: #0da8bc !important;
+}
+
+.btnOutlineStyle.btnAlternateColor {
+    color: #f95759;
+    border: 2px solid #f95759;
+}
+
+.btnOutlineStyle.btnAlternateColor span,
+.btnOutlineStyle.btnAlternateColor span:before,
+.btnOutlineStyle.btnAlternateColor a,
+.btnOutlineStyle.btnAlternateColor .btIco a:before,
+.btnOutlineStyle.btnAlternateColor button {
+    color: #f95759 !important;
+}
+
+.btnBorderlessStyle.btnAccentColor span,
+.btnBorderlessStyle.btnNormalColor:hover span,
+.btnBorderlessStyle.btnAccentColor span:before,
+.btnBorderlessStyle.btnNormalColor:hover span:before,
+.btnBorderlessStyle.btnAccentColor a,
+.btnBorderlessStyle.btnNormalColor:hover a,
+.btnBorderlessStyle.btnAccentColor .btIco a:before,
+.btnBorderlessStyle.btnNormalColor:hover .btIco a:before,
+.btnBorderlessStyle.btnAccentColor button,
+.btnBorderlessStyle.btnNormalColor:hover button {
+    color: #0da8bc;
+}
+
+.btnBorderlessStyle.btnAlternateColor span,
+.btnBorderlessStyle.btnAlternateColor span:before,
+.btnBorderlessStyle.btnAlternateColor a,
+.btnBorderlessStyle.btnAlternateColor .btIco a:before,
+.btnBorderlessStyle.btnAlternateColor button {
+    color: #f95759;
+}
+
+
+
+.btProgressContent .btProgressAnim {
+    background-color: #0da8bc;
+}
+
+.btProgressBarLineStyle .btProgressContent .btProgressAnim {
+    color: #0da8bc;
+    border-bottom: 4px solid #0da8bc;
+}
+
+.captionTxt:before {
+    color: #0da8bc;
+}
+.current-lang a{
+    border-bottom: 1px solid #0da8bc;
+    color: #0da8bc!important;
+}
+@media (max-width: 1017px) {
+    .current-lang a{
+        border-bottom: none;
+        color: #0da8bc!important;
+    }
+}
+.btPriceTable .btPriceTableHeader {
+    background: #0da8bc;
+}
+
+.btLightSkin .btDarkSkin .btPriceTableSticker,
+.btDarkSkin .btLightSkin .btDarkSkin .btPriceTableSticker {
+    background: #f95759;
+}
+
+.btDarkSkin .btDarkSkin .btPriceTableSticker,
+.btLightSkin .btDarkSkin .btDarkSkin .btPriceTableSticker {
+    color: #0da8bc;
+}
+
+
+
+.btLightSkin .btAlternateDash.btDash .dash:after,
+.btLightSkin .btAlternateDash.btDash .dash:before,
+.btDarkSkin .btLightSkin .btAlternateDash.btDash .dash:after,
+.btDarkSkin .btLightSkin .btAlternateDash.btDash .dash:before,
+.btDarkSkin .btAlternateDash.btDash .dash:after,
+.btDarkSkin .btAlternateDash.btDash .dash:before,
+.btLightSkin .btDarkSkin .btAlternateDash.btDash .dash:after,
+.btLightSkin .btDarkSkin .btAlternateDash.btDash .dash:before {
+    box-shadow: 0 2px 0 0 #f95759 inset;
+}
+
+.btLightSkin .btAccentDash.btDash .dash:after,
+.btLightSkin .btAccentDash.btDash .dash:before,
+.btDarkSkin .btLightSkin .btAccentDash.btDash .dash:after,
+.btDarkSkin .btLightSkin .btAccentDash.btDash .dash:before,
+.btDarkSkin .btAccentDash.btDash .dash:after,
+.btDarkSkin .btAccentDash.btDash .dash:before,
+.btLightSkin .btDarkSkin .btAccentDash.btDash .dash:after,
+.btLightSkin .btDarkSkin .btAccentDash.btDash .dash:before {
+    box-shadow: 0 2px 0 0 #0da8bc inset;
+}
+
+.header.small .dash:after,
+.header.small .dash:before {
+    box-shadow: 0 1px 0 0 #0da8bc inset;
+}
+
+.btGridContent .header .btSuperTitle a:hover {
+    color: #0da8bc;
+}
+
+
+.btCatFilter .btCatFilterItem:after {
+    background: #0da8bc;
+}
+
+.btCatFilter .btCatFilterItem:hover {
+    color: #0da8bc;
+}
+
+.btMediaBox.btQuote,
+.btMediaBox.btLink {
+    background-color: #0da8bc;
+}
+
+h4.nbs.nsPrev a:hover:before,
+h4.nbs.nsNext a:hover:after {
+    background-color: #0da8bc;
+}
+
+.btGhost h4.nbs.nsPrev a:hover:before,
+.btGhost h4.nbs.nsNext a:hover:after {
+    background-color: #0da8bc !important;
+}
+
+.slided .slick-dots li.slick-active button,
+.slided .slick-dots li.slick-active button:hover,
+.btDarkSkin .slided .slick-dots li.slick-active button,
+.btLightSkin .btDarkSkin .slided .slick-dots li.slick-active button,
+.btDarkSkin .slided .slick-dots li.slick-active button:hover,
+.btLightSkin .btDarkSkin .slided .slick-dots li.slick-active button:hover {
+    background-color: #0da8bc;
+}
+
+.btGetInfo {
+    background: #0da8bc;
+}
+
+.btCloseGhost .btIco .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.btInfoBarMeta p strong {
+    color: #0da8bc;
+}
+
+.btLightSkin .tabsHeader li.on span,
+.btDarkSkin .btLightSkin .tabsHeader li.on span,
+.btLightSkin .tabsHeader li.on a,
+.btDarkSkin .btLightSkin .tabsHeader li.on a {
+    box-shadow: 0 -2px 0 0 #0da8bc inset;
+}
+
+.btLightSkin .tabsVertical .tabAccordionTitle.on,
+.btDarkSkin .btLightSkin .tabsVertical .tabAccordionTitle.on,
+.btDarkSkin .tabsVertical .tabAccordionTitle.on,
+.btLightSkin .btDarkSkin .tabsVertical .tabAccordionTitle.on {
+    background-color: #0da8bc;
+    box-shadow: -52px 0 0 #086874 inset;
+}
+
+.rtl.btLightSkin .tabsVertical .tabAccordionTitle.on,
+.rtl.btDarkSkin .btLightSkin .tabsVertical .tabAccordionTitle.on,
+.rtl.btDarkSkin .tabsVertical .tabAccordionTitle.on,
+.rtl.btLightSkin .btDarkSkin .tabsVertical .tabAccordionTitle.on {
+    box-shadow: 52px 0 0 #086874 inset;
+}
+
+.tabsVertical .tabAccordionTitle:before {
+    color: #0da8bc;
+}
+
+.tabAccordionTitle.on {
+    background: #0da8bc;
+}
+
+.btSingleLatestPostFooter a.btArticleComments {
+    border-left: 1px solid #0da8bc;
+}
+
+.demos span {
+    background-color: #0da8bc;
+}
+
+.btWorkingHoursInnerLink a {
+    background-color: #f95759;
+}
+
+.btWorkingHoursInnerLink a:hover {
+    background-color: #0da8bc;
+}
+
+.btDarkSkin .btGoogleMapsWrap,
+.btLightSkin .btDarkSkin .btGoogleMapsWrap {
+    background-color: #f95759;
+}
+
+span.btInfoPaneToggler {
+    background-color: #0da8bc;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+textarea,
+.fancy-select .trigger,
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+.fancy-select .trigger.open,
+.select2-container.select2-dropdown-open .select2-choice {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+.btSpecTypeDropdown .fancy-select .trigger.open {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+.wCheckBox:before {
+    background-color: #0da8bc;
+}
+
+.btCustomList li a:before {
+    color: #0da8bc;
+}
+
+.btCustomList li a:hover:before {
+    background-color: #0da8bc;
+}
+
+.btLightSkin .btCustomList li a:hover,
+.btDarkSkin .btLightSkin .btCustomList li a:hover,
+.btDarkSkin .btCustomList li a:hover,
+.btLightSkin .btDarkSkin .btCustomList li a:hover {
+    background-color: #0da8bc;
+}
+
+.btLightSkin .btCustomList li a:hover:before,
+.btDarkSkin .btLightSkin .btCustomList li a:hover:before,
+.btDarkSkin .btCustomList li a:hover:before,
+.btLightSkin .btDarkSkin .btCustomList li a:hover:before {
+    background-color: #086874;
+}
+
+div.wpcf7-validation-errors {
+    color: #0da8bc;
+    border-color: #0da8bc;
+}
+
+
+.ui-datepicker.ui-widget .ui-datepicker-header {
+    background: #0da8bc;
+}
+
+.ui-datepicker.ui-widget tbody tr td a.ui-state-default.ui-state-active {
+    box-shadow: 0 0 0 20px #f95759 inset;
+}
+
+.ui-datepicker.ui-widget tbody tr td a.ui-state-default.ui-state-highlight {
+    box-shadow: 0 0 0 20px #0da8bc inset;
+}
+
+.ui-datepicker.ui-widget tbody tr td a.ui-state-default.ui-state-hover {
+    color: #0da8bc;
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+.slick-dots li.slick-active button,
+.slick-dots li.slick-active button:hover {
+    background-color: #0da8bc !important;
+}
+
+button.slick-arrow {
+    background: #0da8bc;
+}
+
+button.slick-arrow:hover {
+    background-color: #0da8bc;
+}
+
+.btLightSkin button.slick-arrow:hover,
+.btDarkSkin .btLightSkin button.slick-arrow:hover,
+.btDarkSkin button.slick-arrow:hover,
+.btLightSkin .btDarkSkin button.slick-arrow:hover {
+    background-color: #0da8bc;
+}
+
+.bt_bb_arrows_size_large button.slick-arrow:after {
+    box-shadow: 0 0 0 1px #0da8bc inset;
+}
+
+.bt_bb_arrows_size_large button.slick-arrow:hover:after {
+    box-shadow: 0 0 0 1em #0da8bc inset;
+}
+
+.bt_bb_color_scheme_2 .bt_bb_arrows_size_large button.slick-arrow:hover:before,
+.bt_bb_color_scheme_5 .bt_bb_arrows_size_large button.slick-arrow:hover:before {
+    color: #0da8bc;
+}
+
+
+
+.wpcf7-form input:not([type='checkbox']):not([type='radio']).wpcf7-submit:hover {
+    background: #086874 !important;
+}
+
+.wpcf7-form .btAlterSubmit input:not([type='checkbox']):not([type='radio']).wpcf7-submit {
+    background: #f95759;
+}
+
+.wpcf7-form .btAlterSubmit input:not([type='checkbox']):not([type='radio']).wpcf7-submit:hover {
+    background: #f60d10 !important;
+}
+
+div.wpcf7 .btSubscribe input[type='submit'] {
+    background: #0da8bc !important;
+}
+
+div.wpcf7 .btFooterSubscribe input[type='submit'] {
+    background: #f95759 !important;
+}
+
+div.wpcf7 .btFooterSubscribe input[type='submit']:hover {
+    background: #f60d10;
+}
+
+
+.btLightSkin .bt_bb_features_table table thead tr th,
+.btDarkSkin .btLightSkin .bt_bb_features_table table thead tr th {
+    border-bottom-color: #0da8bc;
+}
+
+.btDarkSkin .bt_bb_features_table table thead tr th,
+.btLightSkin .btDarkSkin .bt_bb_features_table table thead tr th {
+    border-bottom-color: #0da8bc;
+}
+
+.bt_bb_features_table table tbody tr td .bt_bb_features_table_yes:after {
+    color: #0da8bc;
+}
+
+.bt_bb_masonry_image_grid .bt_bb_grid_item .bt_bb_grid_item_inner_image:after {
+    color: #0da8bc;
+}
+
+.bt_bb_post_grid_loader {
+    border-right: 2px solid #0da8bc;
+}
+
+
+
+.bt_bb_post_grid_filter .bt_bb_post_grid_filter_item:after {
+    background: #0da8bc;
+}
+
+.bt_bb_post_grid_filter .bt_bb_post_grid_filter_item:hover {
+    color: #0da8bc;
+}
+
+
+.bt_bb_masonry_portfolio_grid .bt_bb_masonry_post_grid_content .bt_bb_grid_item .bt_bb_grid_item_post_content .bt_bb_grid_item_post_title a {
+    color: #0da8bc;
+}
+
+.bt_bb_masonry_portfolio_grid .bt_bb_masonry_post_grid_content .bt_bb_grid_item .bt_bb_grid_item_post_content .bt_bb_grid_item_post_title:before {
+    background: #f95759;
+}
+
+
+.bt_bb_masonry_portfolio_grid .bt_bb_masonry_post_grid_content .bt_bb_grid_item .bt_bb_grid_item_post_content .bt_bb_grid_item_post_share .btIco:hover .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item .bt_bb_grid_item_inner .bt_bb_grid_item_inner_content .bt_bb_grid_item_post_title:before {
+    color: #0da8bc;
+}
+
+.bt_bb_masonry_portfolio_tiles .bt_bb_grid_item .bt_bb_grid_item_inner .bt_bb_grid_item_inner_content .bt_bb_grid_item_post_title + .bt_bb_grid_item_post_excerpt:before {
+    background: #f95759;
+}
+
+.bt_bb_twitter .bt_bb_twitter_item a {
+    color: #0da8bc;
+}
+
+.bt_bb_slider .slick-dots li.slick-active button,
+.bt_bb_slider .slick-dots li.slick-active button:hover,
+.btDarkSkin .bt_bb_slider .slick-dots li.slick-active button,
+.btLightSkin .btDarkSkin .bt_bb_slider .slick-dots li.slick-active button,
+.btDarkSkin .bt_bb_slider .slick-dots li.slick-active button:hover,
+.btLightSkin .btDarkSkin .bt_bb_slider .slick-dots li.slick-active button:hover {
+    background-color: #0da8bc;
+}
+
+.mfp-gallery button.mfp-close {
+    color: #0da8bc;
+}
+
+.mfp-gallery button.mfp-arrow:hover {
+    background: #0da8bc;
+}
+
+
+.btSidebar .btIconWidget.btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:before,
+.btSidebar .btIconWidget.btSpecialHeaderIcon .btIconWidgetIcon .btIco .btIcoHolder:after {
+    color: #0da8bc;
+}
+
+.bt_bb_before_after_image .bt_bb_before_after_image-horizontal .bt_bb_before_after_image-handle:hover {
+    background: #0da8bc;
+}
+
+.bt_bb_before_after_image .bt_bb_before_after_image-container.active .bt_bb_before_after_image-handle {
+    background: #0da8bc;
+}
+
+.bt_bb_before_after_image .bt_bb_before_after_image_block {
+    background: #0da8bc;
+}
+
+
+
+.bt_bb_before_after_image .bt_bb_before_after_image_block .bt_bb_before_after_image_headline:after {
+    background: #f95759;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container {
+    background-color: #0da8bc;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container:hover {
+    background-color: #f95759;
+}
+
+.btNewsletter .btNewsletterColumn input:focus {
+    box-shadow: 0 0 0 3px #0da8bc !important;
+}
+
+.btNewsletter .btNewsletterButton input {
+    background: #f95759 !important;
+}
+
+.btNewsletter .btNewsletterButton input:hover {
+    background: #f60d10 !important;
+    box-shadow: 0 0 0 3em #f60d10 inset;
+}
+
+.btAnimNav li.btAnimNavNext:hover,
+.btAnimNav li.btAnimNavPrev:hover {
+    color: #0da8bc;
+}
+
+.headline strong.animate {
+    color: #f95759;
+}
+
+.headline b.animate {
+    color: #0da8bc;
+}
+
+p.demo_store {
+    background-color: #0da8bc;
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+    border-top: 2px solid #0da8bc;
+}
+
+.woocommerce .woocommerce-info a:not(.button),
+.woocommerce .woocommerce-message a:not(.button) {
+    color: #0da8bc;
+}
+
+.woocommerce .woocommerce-message {
+    border-top-color: #0da8bc;
+}
+
+.woocommerce .woocommerce-message:before {
+    color: #0da8bc;
+}
+
+.woocommerce .woocommerce-info {
+    border-top-color: #0da8bc;
+}
+
+.woocommerce .woocommerce-info:before {
+    color: #0da8bc;
+}
+
+.woocommerce div.product .stock {
+    color: #0da8bc;
+}
+
+nav.woocommerce-pagination ul li a:focus,
+nav.woocommerce-pagination ul li a:hover {
+    background: #f95759;
+}
+
+nav.woocommerce-pagination ul li a.next,
+nav.woocommerce-pagination ul li a.prev {
+    background: #0da8bc;
+}
+
+nav.woocommerce-pagination ul li a.next:hover,
+nav.woocommerce-pagination ul li a.prev:hover {
+    background: #f95759;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce button.button.single_add_to_cart_button,
+.woocommerce .button.single_add_to_cart_button,
+.woocommerce input.button,
+.woocommerce button.button,
+.woocommerce .widget_price_filter .price_slider_amount .button,
+.woocommerce p.buttons a.button,
+.woocommerce .woocommerce-message a.button,
+button[name="calc_shipping"] {
+    color: #0da8bc;
+    border: 2px solid #0da8bc;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce p.buttons a.button:hover,
+.widget_price_filter .price_slider_amount .button:hover {
+    background-color: #0da8bc;
+}
+
+.woocommerce .woocommerce-message a.button,
+.woocommerce a.button.wc-forward,
+.woocommerce #review_form .form-submit input[type="submit"]#submit,
+.woocommerce .shop_table.cart td.actions input[type="submit"],
+.woocommerce .shop_table.cart td.actions button[type="submit"],
+.woocommerce .login input[type="submit"],
+.woocommerce input.button[name="register"],
+.woocommerce input.button[name="save_address"],
+.woocommerce p.buttons a.button {
+    background-color: #0da8bc;
+}
+
+.woocommerce .woocommerce-message a.button:hover,
+.woocommerce a.button.wc-forward:hover,
+.woocommerce #review_form .form-submit input[type="submit"]#submit:hover,
+.woocommerce .shop_table.cart td.actions input[type="submit"]:hover,
+.woocommerce .shop_table.cart td.actions button[type="submit"]:hover,
+.woocommerce .login input[type="submit"]:hover,
+.woocommerce input.button[name="register"]:hover,
+.woocommerce input.button[name="save_address"]:hover,
+.woocommerce p.buttons a.button:hover,
+button[name="calc_shipping"]:hover {
+    background-color: #086874;
+    border-color: #086874;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background-color: #0da8bc;
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    color: #0da8bc !important;
+}
+
+.woocommerce #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover {
+    background-color: #0da8bc;
+}
+
+.woocommerce .star-rating span:before {
+    color: #0da8bc;
+}
+
+.woocommerce p.stars a[class^="star-"].active:after,
+.woocommerce p.stars a[class^="star-"]:hover:after {
+    color: #0da8bc;
+}
+
+.btLightSkin.woocommerce ul.cart_list li .headline a:hover,
+.btDarkSkin .btLightSkin.woocommerce ul.cart_list li .headline a:hover,
+.btLightSkin.woocommerce ul.product_list_widget li .headline a:hover,
+.btDarkSkin .btLightSkin.woocommerce ul.product_list_widget li .headline a:hover,
+.btDarkSkin.woocommerce ul.cart_list li .headline a:hover,
+.btLightSkin .btDarkSkin.woocommerce ul.cart_list li .headline a:hover,
+.btDarkSkin.woocommerce ul.product_list_widget li .headline a:hover,
+.btLightSkin .btDarkSkin.woocommerce ul.product_list_widget li .headline a:hover {
+    color: #0da8bc;
+}
+
+.btFooterWrap.btDarkSkin ul.cart_list li .headline a:hover,
+.btFooterWrap.btLightSkin ul.cart_list li .headline a:hover,
+.btFooterWrap.btDarkSkin ul.product_list_widget li .headline a:hover,
+.btFooterWrap.btLightSkin ul.product_list_widget li .headline a:hover {
+    color: #0da8bc !important;
+}
+
+.woocommerce .widget_shopping_cart .total,
+.woocommerce.widget_shopping_cart .total {
+    border-top: 2px solid #0da8bc;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove:hover,
+.woocommerce.widget_shopping_cart .cart_list li a.remove:hover {
+    background-color: #0da8bc;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #0da8bc;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals .discount td {
+    color: #0da8bc;
+}
+
+.woocommerce .product_meta .posted_in:before {
+    color: #0da8bc;
+}
+
+.woocommerce .product_meta .posted_in a {
+    color: #0da8bc;
+}
+
+.woocommerce form.woocommerce-product-search input[type="submit"] {
+    background-color: #0da8bc;
+}
+
+
+.woocommerce form.woocommerce-product-search .search-field:focus {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+.woocommerce form.woocommerce-product-search button {
+    background: #0da8bc;
+}
+
+.woocommerce form.woocommerce-product-search button:hover {
+    background: #086874;
+}
+
+td.product-remove a.remove {
+    color: #0da8bc;
+    border: 1px solid #0da8bc;
+}
+
+td.product-remove a.remove:hover {
+    background-color: #0da8bc;
+}
+
+.woocommerce .wc-proceed-to-checkout a.button {
+    border: 2px solid #0da8bc;
+}
+
+.woocommerce p.lost_password:before {
+    color: #0da8bc;
+}
+
+.woocommerce form.login p.lost_password a:hover {
+    color: #0da8bc;
+}
+
+.woocommerce header.title .edit {
+    color: #0da8bc;
+}
+
+.woocommerce .widget_layered_nav ul li.chosen a:hover:before,
+.woocommerce .widget_layered_nav_filters ul li a:hover:before {
+    background-color: #0da8bc;
+}
+
+a.reset_variations:hover {
+    color: #0da8bc;
+}
+
+.btLightSkin.woocommerce .product .headline a:hover,
+.btDarkSkin .btLightSkin.woocommerce .product .headline a:hover,
+.btDarkSkin.woocommerce .product .headline a:hover,
+.btLightSkin .btDarkSkin.woocommerce .product .headline a:hover {
+    color: #0da8bc;
+}
+
+.woocommerce a.button.wc-backward {
+    background-color: #0da8bc;
+}
+
+.woocommerce a.button.wc-backward:hover {
+    background-color: #086874;
+}
+
+
+
+.woocommerce-MyAccount-navigation ul li a:after {
+    background: #0da8bc;
+}
+
+.woocommerce-MyAccount-navigation ul li a:hover {
+    color: #0da8bc;
+}
+
+
+.btQuoteBooking .btContactNext {
+    background-color: #0da8bc;
+    border: 2px solid #0da8bc;
+}
+
+.btQuoteBooking .btContactNext:hover,
+.btQuoteBooking .btContactNext:active {
+    background-color: #086874;
+    border: 2px solid #086874;
+}
+
+.btQuoteBooking .btQuoteSwitch:hover {
+    box-shadow: 0 0 0 #0da8bc inset, 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btQuoteBooking .btQuoteSwitch.on .btQuoteSwitchInner {
+    background: #0da8bc;
+}
+
+.btQuoteBooking input[type="text"],
+.btQuoteBooking input[type="email"],
+.btQuoteBooking input[type="password"],
+.btQuoteBooking textarea,
+.btQuoteBooking .fancy-select .trigger,
+
+.btQuoteBooking input[type="text"]:focus,
+.btQuoteBooking input[type="email"]:focus,
+.btQuoteBooking input[type="password"]:focus,
+.btQuoteBooking textarea:focus,
+.btQuoteBooking .fancy-select .trigger.open,
+.btQuoteBooking .dd.ddcommon.borderRadiusTp .ddTitleText {
+    box-shadow: 0 0 0 2px #0da8bc inset;
+}
+
+
+
+.btQuoteBooking .ui-slider .ui-slider-handle {
+    background: #0da8bc;
+}
+
+.btQuoteBooking .btQuoteBookingForm .btQuoteTotal {
+    background: #0da8bc;
+}
+
+.btQuoteBooking .btQuoteTotalCurrency {
+    background: #086874;
+}
+
+.btQuoteBooking .btQuoteTotalCalc {
+    background: #086874;
+}
+
+.btQuoteBooking .btContactFieldMandatory:after {
+    color: #0da8bc;
+}
+
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError input,
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea {
+    border: 1px solid #0da8bc;
+    box-shadow: 0 0 0 1px #0da8bc inset;
+}
+
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius .ddTitleText {
+    border: 1px solid #0da8bc;
+    box-shadow: 0 0 0 1px #0da8bc inset;
+}
+
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadius:hover .ddTitleText {
+    box-shadow: 0 0 0 1px #0da8bc inset, 0 0 0 #0da8bc inset, 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError input:focus,
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError textarea:focus {
+    box-shadow: 0 0 0 1px #0da8bc inset, 5px 0 0 #0da8bc inset, 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btQuoteBooking .btContactFieldMandatory.btContactFieldError .dd.ddcommon.borderRadiusTp .ddTitleText {
+    box-shadow: 0 0 0 1px #0da8bc inset, 5px 0 0 #0da8bc inset, 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btQuoteBooking .btSubmitMessage {
+    color: #0da8bc;
+}
+
+.btDatePicker .ui-datepicker-header {
+    background-color: #0da8bc;
+}
+
+.btQuoteBooking .btContactSubmit {
+    background-color: #0da8bc;
+    border: 2px solid #0da8bc;
+}
+
+.btQuoteBooking .btContactSubmit:hover {
+    background-color: #086874;
+    border: 2px solid #086874;
+}
+
+.btPayPalButton:hover {
+    box-shadow: 0 0 0 #0da8bc inset, 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 992px) {
+    .header.small .dash:after,
+    .header.small .dash:before {
+        box-shadow: 0 1px 0 0 #0da8bc inset;
+    }
+}
+
+@media (max-width: 767px) {
+    .btArticleListItem .btArticleFooter .btShareArticle:before {
+        background-color: #0da8bc;
+    }
+}
+
+.wp-block-button__link:hover {
+    color: #0da8bc !important;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type {
+    display: table !important;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table .mptt-event-container:hover {
+    height: auto !important;
+    min-height: 100% !important;
+}
+
+body.mprm_ie_browser .mptt-shortcode-wrapper .mptt-event-container {
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+    .mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type {
+        display: none !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btPriceTable .btPriceTableHeader .header h2 {
+    font-weight: 400;
+    letter-spacing: -.02em;
+}
+
+.header .headline em,
+.headline b.animate,
+.headline strong.animate {
+    font-weight: inherit !important;
+    letter-spacing: inherit;
+}
+
+.menuPort nav ul li a {
+    font-weight: 400;
+}
+
+.btBtn,
+.wpcf7-form input:not([type='checkbox']):not([type='radio']).wpcf7-submit {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.btFooterWrap.btDarkSkin {
+    background: #066672;
+}
+
+.btFooterMenu .fooWidgets {
+    display: none;
+}
+
+.form-top {
+    position: relative;
+    z-index: 1;
+    margin-top: -215px;
+    margin-bottom: -55px;
+}
+
+@media screen and (max-width: 560px) {
+    .form-top {
+        margin-top: -50px;
+    }
+}
+
+.home-slider {
+    position: relative;
+    z-index: 1;
+}
+
+.home-slider .owl-nav {
+    z-index: 2;
+}
+
+.home-slider .owl-prev {
+    position: absolute;
+    top: 48%;
+    left: 50px;
+    z-index: 6;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.home-slider .owl-next {
+    position: absolute;
+    top: 48%;
+    right: 50px;
+    z-index: 6;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.adres-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.adres-input-left {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    .adres-input-left {
+        width: 200px;
+    }
+}
+
+.adres-input-check {
+    margin-left: 10px;
+}
+
+.ros {
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+    .ros {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ros {
+        flex-wrap: wrap;
+    }
+}
+
+.hr {
+    padding-top: 40px;
+    opacity: 0.1;
+}
+
+.vibers-icon::before {
+    top: 5px;
+}
+
+.topBarInLogoAreaCell .btIconWidgetIcon {
+    padding: 0 1em 0 0;
+    line-height: 1;
+}
+
+.btDarkSkin .btnFilledStyle.btnLightColor,
+.btLightSkin .btDarkSkin .btnFilledStyle.btnLightColor,
+.btLightSkin .btnFilledStyle.btnLightColor,
+.btDarkSkin .btLightSkin .btnFilledStyle.btnLightColor {
+    display: flex;
+    align-items: center;
+}
+
+.but__c {
+    padding-top: 12px;
+    text-transform: none;
+}
+
+.but__cc {
+    display: flex;
+    align-items: center;
+}
+
+.but__ccc {
+    padding-top: 10px;
+}
+
+.podrobniy {
+    padding-top: 3px;
+}
+
+@media screen and (max-width: 560px) {
+    .podrobniy {
+        padding-top: 0px;
+    }
+}
+
+.slider-bot {
+    height: 50vh;
+}
+
+.gutter .port {
+    position: relative;
+    z-index: 1;
+}
+
+.header .headline {
+    float: left;
+}
+
+.slider__chif-box {
+    position: relative;
+    z-index: 1;
+}
+
+.slider__chif-box .rowItemContent {
+    width: 270px !important;
+    margin: 0 auto;
+}
+
+.slider__chif-box .owl-nav [class*=owl-] {
+    z-index: 2;
+    background: none;
+}
+
+.slider__chif-box .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__chif-box .owl-dots {
+        margin-top: 50px;
+    }
+}
+
+.slider__chif-box .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: none !important;
+    border: none;
+}
+
+.slider__chif-box .owl-dots .owl-dot.active span,
+.slider__chif-box .owl-dots .owl-dot:hover span {
+    background: #2cb1bb;
+}
+
+.slider__chif-box .owl-prev {
+    position: absolute;
+    top: 48%;
+    left: -50px;
+    z-index: 6;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__chif-box .owl-next {
+    position: absolute;
+    top: 48%;
+    right: -50px;
+    z-index: 6;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__doctor-certificate {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.slider__doctor-certificate .rowItemContent {
+    margin: 0 auto;
+}
+
+.slider__doctor-certificate .owl-nav [class*=owl-] {
+    z-index: 2;
+    background: none;
+}
+
+.slider__doctor-certificate .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__doctor-certificate .owl-dots {
+        margin-top: 50px;
+    }
+}
+
+.slider__doctor-certificate .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: none !important;
+    border: none;
+}
+
+.slider__doctor-certificate .owl-dots .owl-dot.active span,
+.slider__doctor-certificate .owl-dots .owl-dot:hover span {
+    background: #2cb1bb;
+}
+
+.slider__doctor-certificate .owl-prev {
+    position: absolute;
+    top: 48%;
+    left: -40px;
+    z-index: 16;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__doctor-certificate .owl-next {
+    position: absolute;
+    top: 48%;
+    right: -40px;
+    z-index: 6;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__oftalmolog-sertifikate {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.slider__oftalmolog-sertifikate .rowItemContent {
+    margin: 0 auto;
+}
+
+.slider__oftalmolog-sertifikate .owl-nav [class*=owl-] {
+    z-index: 2;
+    background: none;
+}
+
+.slider__oftalmolog-sertifikate .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__oftalmolog-sertifikate .owl-dots {
+        margin-top: 50px;
+    }
+}
+
+.slider__oftalmolog-sertifikate .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: none !important;
+    border: none;
+}
+
+.slider__oftalmolog-sertifikate .owl-dots .owl-dot.active span,
+.slider__oftalmolog-sertifikate .owl-dots .owl-dot:hover span {
+    background: #2cb1bb;
+}
+
+.slider__oftalmolog-sertifikate .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: -40px;
+    z-index: 16;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__oftalmolog-sertifikate .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -40px;
+    z-index: 6;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__oftalmolog {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.slider__oftalmolog .rowItemContent {
+    margin: 0 auto;
+}
+
+.slider__oftalmolog .owl-nav [class*=owl-] {
+    z-index: 2;
+    background: none;
+}
+
+.slider__oftalmolog .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__oftalmolog .owl-dots {
+        margin-top: 50px;
+    }
+}
+
+.slider__oftalmolog .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: none !important;
+    border: none;
+}
+
+.slider__oftalmolog .owl-dots .owl-dot.active span,
+.slider__oftalmolog .owl-dots .owl-dot:hover span {
+    background: #2cb1bb;
+}
+
+.slider__oftalmolog .owl-prev {
+    position: absolute;
+    top: 48%;
+    left: -40px;
+    z-index: 16;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__oftalmolog .owl-next {
+    position: absolute;
+    top: 48%;
+    right: -40px;
+    z-index: 6;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__sertifikat-box {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.slider__sertifikat-box .rowItemContent {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__sertifikat-box .rowItemContent {
+        max-width: 280px;
+    }
+}
+
+.slider__sertifikat-box .rowItemContent img {
+    width: 100%;
+}
+
+.slider__sertifikat-box .owl-nav [class*=owl-] {
+    z-index: 2;
+    background: none;
+}
+
+.slider__sertifikat-box .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+@media screen and (max-width: 560px) {
+    .slider__sertifikat-box .owl-dots {
+        margin-top: 50px;
+    }
+}
+
+.slider__sertifikat-box .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    background: none !important;
+    border: none;
+}
+
+.slider__sertifikat-box .owl-dots .owl-dot.active span,
+.slider__sertifikat-box .owl-dots .owl-dot:hover span {
+    background: #2cb1bb;
+}
+
+.slider__sertifikat-box .owl-prev {
+    position: absolute;
+    top: 37%;
+    left: -50px;
+    z-index: 6;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.slider__sertifikat-box .owl-next {
+    position: absolute;
+    top: 37%;
+    right: -50px;
+    z-index: 7;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.btGridGap-20 .tilesWall .captionPane {
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.button__comment {
+    padding-bottom: 75px;
+}
+
+.single-portfolioo {
+    font-weight: 400;
+    line-height: 1.15;
+    color: #0da8bc !important;
+}
+
+.fancy {
+    display: flex;
+    justify-content: baseline;
+}
+
+@media screen and (max-width: 560px) {
+    .fancy {
+        flex-direction: column;
+    }
+}
+
+.fancy .rowItem {
+    padding: 5px;
+}
+
+@media screen and (max-width: 560px) {
+    .fancy .rowItem {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .fancy .rowItem {
+        padding: 0px;
+    }
+}
+
+.fancy .rowItem .btMediaBox img {
+    width: 100%;
+}
+
+.pac__top {
+    margin-top: 30px;
+}
+
+.doctors__top {
+    margin-top: 30px;
+}
+
+.paginate__wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.paginate__wrapper .prev,
+.paginate__wrapper .next {
+    margin: 0px 20px;
+}
+
+.paginate__wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.paginate__wrapper li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+.paginate__wrapper a {
+    display: inline-block;
+    margin: 1px 2px;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-shadow: white 0 1px 0;
+    border: none;
+}
+
+.paginate__wrapper a:first-child, .paginate__wrapper a.first {
+    margin-left: 0;
+}
+
+.paginate__wrapper a:last-child, .paginate__wrapper a.last {
+    margin-right: 0;
+}
+
+.paginate__wrapper a:hover, .paginate__wrapper a:focus {
+    background-color: #fdfdfd;
+    border-color: #fff;
+}
+
+.paginate__wrapper a.more {
+    margin-right: 0;
+    margin-left: 0;
+    background: transparent;
+    border: 0 none;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.paginate__wrapper a.active {
+    color: #ffffff;
+    text-shadow: black 0 1px 0;
+    background-color: #0ea8bc;
+    box-shadow: rgba(0, 0, 0, 0.75) 0 0 0 0 inset;
+}
+
+.text__left {
+    text-align: left;
+}
+
+.form__doctor {
+    margin-bottom: 100px;
+}
+
+.certificate__box {
+    padding-top: 100px;
+}
+
+.gravnaya {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.content_block {
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.content_block.hide {
+    height: 235px;
+}
+
+.content_block.hide:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 75%);
+}
+
+.seo__oftalmologia {
+    margin-bottom: 50px;
+}
+
+.content_block1 {
+    display: none;
+}
+
+.content_toggle1 {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #672cc5;
+    border-bottom: 3px solid #32145a;
+    border-radius: 5px;
+}
+
+.gravnaya2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button__seo {
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #f2f2f2;
+    letter-spacing: 0.8px;
+    background-color: #0ea8bc;
+    border: 2px solid #0ea8bc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 560px) {
+    .button__seo-text {
+        margin-bottom: 60px !important;
+    }
+}
+
+.button__seo-text:hover {
+    background-color: #086874;
+}
+
+.content_block2 {
+    position: relative;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.content_block2.hide {
+    height: 235px;
+}
+
+.content_block2.hide:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 75%);
+}
+
+.plagin {
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+}
+
+.plagin .plagin__text {
+    position: fixed;
+    right: 100px;
+    bottom: 152px;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card__top {
+    margin-top: 40px !important;
+}
+
+.chif {
+    margin-top: 30px !important;
+}
+
+.slider__sli .owl-dots {
+    border: none;
+}
+
+.slider__sli .owl-dots .owl-dot {
+    background: none;
+    border: none;
+}
+
+.slider__sli .owl-dots .owl-dot .active span {
+    background: #e97407;
+}
+
+.botton__bottom {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+    .botton__bottom {
+        width: 200px !important;
+    }
+}
+
+.rowItemContent {
+    position: static !important;
+}
+
+.header.small h3,
+.header.small p {
+    font-size: 20px;
+}
+
+.sTxt {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.slider__sli,
+.owl-dot {
+    background: none;
+    border: none;
+}
+
+.slider__sli .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #0ea8bc;
+}
+
+.content_block1 .wpd_label {
+    display: none !important;
+}
+
+.content_block1 .wpd-thread-wrapper {
+    display: none !important;
+}
+
+.content_block1 .wpd-form-head {
+    display: none !important;
+}
+
+.content_block1 .wc_comment {
+    height: 150px !important;
+    margin-top: 5px !important;
+}
+
+.content_block1 .wc_email,
+.wc_name {
+    height: 50px !important;
+    padding-top: 10px !important;
+}
+
+.content_block1 .wpd-textarea-wrap {
+    flex-basis: 100% !important;
+}
+
+.content_block1 #wpdcom i {
+    margin-top: 7px !important;
+}
+
+.content_block1 .wc-field-submit {
+    justify-content: flex-start !important;
+}
+
+.content_block1 .wc-field-submit input[type="submit"] {
+    margin-left: 0px !important;
+}
+
+.content_block1 .wpdiscuz-item {
+    padding-top: 15px !important;
+}
+
+.content_block1 .wpd-field-icon {
+    top: 22px !important;
+}
+
+
+
+.btText p {
+    font-size: 15px !important;
+}
+
+@media screen and (max-width: 360px) {
+    .logo-footer {
+        margin-left: 80px;
+    }
+
+}
+
+.text__red .my_contact {
+    font-size: 28px !important;
+}
+
+.text__red .btSubTitle {
+    font-size: 17px !important;
+}
+
+.pacient__bootom {
+    margin-bottom: 85px;
+}
+
+.btSiteFooter .copyLine {
+    margin-bottom: -8px !important;
+}
+
+@media screen and (max-width: 560px) {
+    .pwir {
+        font-size: 34px !important;
+    }
+    .dash p{
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .topBarInLogoAreaCell .btIconWidgetIcon {
+        padding: 0 0.3em 0 0 !important;
+    }
+}
+
+.trig__top {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 560px) {
+    .menuHolder .logo img {
+        height: 65px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .trig__top {
+        margin-top: 28px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .topBarInLogoArea {
+        margin-top: 28px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header__v {
+        display: none;
+    }
+}
+
+.contact__adress {
+    font-size: 20px !important;
+    text-align: center !important;
+    color: #0ea8bc !important;
+}
+
+.rowItemContent__block {
+    height: 430px !important;
+}
+
+@media screen and (max-width: 560px) {
+    .rowItemContent__block {
+        height: 374px !important;
+    }
+}
+
+.boldRows {
+    max-height: 620px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .boldRows {
+        max-height: 100%;
+    }
+}
+
+.btTexts {
+    height: 180px;
+    overflow-y: auto;
+}
+
+.lang-sv {
+    margin-bottom: 7px !important;
+}
+
+@media screen and (max-width: 560px) {
+    .lang-sv {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .lang-sv {
+        margin-bottom: 25px !important;
+    }
+}
+
+ul,
+ol {
+    margin: 0 !important;
+}
+
+.hr {
+    padding-top: 40px;
+    opacity: 0.1;
+}
+
+.vibers-icon::before {
+    top: 5px;
+}
+
+.topBarInLogoAreaCell .btIconWidgetIcon {
+    padding: 0 1em 0 0;
+    line-height: 1;
+}
+
+.btDarkSkin .btnFilledStyle.btnLightColor, .btLightSkin .btDarkSkin .btnFilledStyle.btnLightColor, .btLightSkin .btnFilledStyle.btnLightColor, .btDarkSkin .btLightSkin .btnFilledStyle.btnLightColor {
+    display: flex;
+    align-items: center;
+}
+
+.but__c {
+    padding-top: 12px;
+    text-transform: none;
+}
+
+.but__cc {
+    display: flex;
+    align-items: center;
+}
+
+.but__ccc {
+    padding-top: 10px;
+}
+
+.check-box {
+    display: flex;
+    width: 100%;
+}
+
+.dash h3 {
+    text-align: left;
+}
+
+.footer__box {
+    align-items: center;
+    /*height: 25px;*/
+}
+
+.copyLine {
+    padding-top: 3px;
+}
+
+.podrobniy {
+    padding-top: 12px !important;
+}
+
+.btnSmall {
+    text-transform: none !important;
+}
+
+.btTextLeft .btBtn:not(.btnFullWidth) {
+    margin-right: -3px !important;
+}
+
+form.wpcf7-form p span {
+    margin: 0px !important;
+}
+
+.contact__adress {
+    float: none !important;
+}
+
+.contact__adress {
+    float: none !important;
+}
+
+.contact__left-float {
+    text-align: left;
+}
+
+.contact__map {
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 560px) {
+    .btSiteFooter {
+        padding-bottom: 35px !important;
+    }
+}
+
+.btMenuHorizontal .topBarInMenu {
+    margin-right: 59px !important;
+}
+
+
+body {
+    letter-spacing: 0.8px !important;
+}
+
+span {
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    color: #181818;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
+    a {
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+a:focus {
+    outline: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 202px;
+    padding-left: 202px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1366px) {
+    .container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto !important;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.error {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.error .error__tittle {
+    margin: 0 auto;
+}
+
+.error .error__tittle h1 {
+    font-size: 288px;
+    line-height: 337px;
+    text-align: center;
+    color: #172E47;
+    filter: drop-shadow(10px 14px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 560px) {
+    .error .error__tittle h1 {
+        font-size: 127px;
+    }
+}
+
+.error .error__subtitle p {
+    font-size: 64px;
+    line-height: 90px;
+    text-align: center;
+    color: #172E47;
+}
+
+@media screen and (max-width: 560px) {
+    .error .error__subtitle p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .error .error__subtitle p {
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .error .error__subtitle {
+        margin-top: -50px;
+    }
+}
+
+.error .error__link strong a {
+    position: relative;
+    font-size: 36px;
+    line-height: 90px;
+    color: #868686;
+}
+
+.error .error__link strong a::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/prev-down.svg");
+    background-repeat: no-repeat;
+}
+
+.error .error__link strong a:hover {
+    color: #555454;
+}
+
+@media screen and (max-width: 560px) {
+    .error .error__link strong a {
+        font-size: 20px;
+    }
+}
+
+#sandwichmenu {
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+.tpl_hamburger svg {
+    width: 60px;
+    height: 40px;
+}
+
+.tpl_hamburger svg {
+    width: 80px;
+    height: 50px;
+    transform: translate3d(0px, 0px, 0px);
+    cursor: pointer;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.tpl_hamburger path.top,
+.tpl_hamburger path.bottom {
+    stroke-dasharray: 240px, 950px;
+}
+
+.tpl_hamburger path {
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s, stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s;
+    fill: none;
+    stroke: #000;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 40px;
+}
+
+.tpl_hamburger path.middle {
+    stroke-dasharray: 240px, 240px;
+}
+
+.tpl_hamburger path {
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s, stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s;
+    fill: none;
+    stroke: #3f5b2c;
+    stroke-dashoffset: 0;
+    stroke-linecap: round;
+    stroke-width: 10px;
+}
+
+.tpl_hamburger.active path.top,
+.tpl_hamburger.active path.bottom {
+    stroke-dashoffset: -650px;
+}
+
+.tpl_hamburger path.top,
+.tpl_hamburger path.bottom {
+    stroke-dasharray: 240px, 950px;
+}
+
+.tpl_hamburger.active path.middle {
+    stroke-dasharray: 1px, 220px;
+    stroke-dashoffset: -115px;
+}
+
+.back_to_top {
+    position: fixed;
+    right: 45px;
+    bottom: 50px;
+    z-index: 9999;
+    display: none;
+    width: 60px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    background: #0ea8bc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
+    .back_to_top {
+        right: 25px;
+        bottom: 88px;
+    }
+
+    .bt_bb_wrapper {
+        font-size: 15px !important;
+    }
+    .btContentHolder table td, .btContentHolder table th {
+        padding: 6px;
+    }
+}
+
+.back_to_top img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.back_to_top:hover {
+    background: #0a72a7;
+}
+
+.back_to_top-show {
+    display: block;
+}
+
+/*FAQ*/
+.faq {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+.faq h3 {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #2b303b;
+    text-align: center;
+    /*border-bottom: 1px solid #0D5C62;*/
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.faq-item {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    margin: 10px 0;
+}
+.faq-item .faq-item-title {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2b303b;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border-radius: 4px;
+    padding: 5px 5px 5px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.faq-item .faq-item-text {
+    display: none;
+    float: left;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2b303b;
+    padding: 0 0 0 55px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.faq-item .faq-item-title.active {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+.faq-item .faq-item-text.active{
+    display: block;
+}
+
+.container__faq{
+    font-size: 16px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item{
+    max-width: 400px;
+}
+
+btLightSkin.btBelowMenu:not(.btStickyHeaderActive) .menuHolder .menuPort ul li a{
+    color: #444;
+}
+.btIconWidgetTitle{
+    color: #444;
+}
+.btDarkSkin a, .btLightSkin .btDarkSkin a{
+    color: #444;
+}
+.btDarkSkin a{
+    color: #000000!important;
+}
+.btIconWidgetContent{
+    color: #444 !important;
+}
+
+body.btMenuHorizontal.btStickyHeaderActive.btLightSkin .mainHeader {
+    background-color: rgba(255,255,255,.97);
+}
+.btBelowMenu:not(.btStickyHeaderActive) .mainHeader{
+    background-color: rgba(255,255,255,.75);
+}
+.menu-item-has-children .sub-menu a {
+    color: #fff !important;
+}
+.btTwoColFooterMenu.btCustomMenu ul li a{
+    color: #fff !important;
+}
+.btFooterWrap.btDarkSkin a{
+    color: #fff !important;
+}
+.menuPort .btDarkSkin .menuHolder .menuPort ul li a{
+    color: #444 !important;
+}
+.topBarInLogoArea .btIconWidgetContent{
+    color: #444 !important;
+}
+
+.btDarkSkin .btIconWidgetText, .btLightSkin .btDarkSkin .btIconWidgetText{
+    color: #444;
+}
+.btStickyHeaderActive.btStickyHeaderOpen .topBarInLogoArea .btIconWidgetText{
+    color: #444;
+}
+.btStickyHeaderActive.btStickyHeaderOpen .menu-item-has-children .sub-menu a{
+    color: #444 !important;
+}
+.btMenuVerticalOn .menu-item-has-children .sub-menu a{
+    color: #444 !important;
+}
+.btMenuVerticalOn .btDarkSkin .btVerticalMenuTrigger .btIco:before{
+    border-top-color: #0da8bc;
+}
+.btMenuVerticalOn .btDarkSkin .btVerticalMenuTrigger .btIco:after{
+    border-top-color: #0da8bc;
+}
+.btDarkSkin .btVerticalMenuTrigger .btIco .btIcoHolder:after{
+    border-top-color: #0da8bc;
+}
+.btDarkSkin .btVerticalMenuTrigger .btIco:before{
+    border-top-color: #0da8bc;
+}
+.btDarkSkin .btVerticalMenuTrigger .btIco:after{
+    border-top-color: #0da8bc;
+}
+.header_sub .menu-item-has-children .sub-menu a{
+    color: #444 !important;
+}
+@media screen and (max-width: 991px) {
+    .btIconWidget .btDarkSkin a, .btLightSkin .btDarkSkin a{
+        color: #fff !important;
+    }
+    .btDarkSkin .btIconWidgetText, .btLightSkin .btDarkSkin .btIconWidgetText{
+        color: #fff;
+    }
+    .btIconWidgetTitle{
+        color: #fff;
+    }
+}
+
+/*Socila reviews widget*/
+#social-reviews .container{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.reviews-wrapper{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.wp-gr .wp-google-time{
+    display: none;
+}
+.wp-fbrev .wp-facebook-time{
+    display: none;
+}
+/*.wp-google-name{
+    display: none !important;
+}*/
+.wp-google-place{
+    display: none !important;
+}
+/*.wp-facebook-name{
+      display: none !important;
+}*/
+.wp-facebook-place{
+    display: none !important;
+}
+.reviews-wrapper .wp-gr .wp-google-url{
+    color: #444!important;
+}
+.reviews-wrapper .wp-fbrev .wp-facebook-url{
+    color: #444!important;
+}
+.reviews-wrapper .wp-gr .wp-more-toggle{
+    color: #80868a!important;
+}
+.reviews-wrapper .wp-fbrev .wp-more-toggle{
+    color: #80868a!important;
+}
+#social-reviews .header.extralarge{
+    padding: 0 100px;
+}
+/*END Socila reviews widget*/
+.btIcoHolder__icon{
+    transition: .2s;
+    max-width: 74px !important;
+}
+
+.btMenuVerticalOn .menuHolder{
+    height: 100vh;
+}
+.btMenuVerticalOn .btVerticalMenuTrigger{
+    height: 100%;
+    width: 100%
+}
+
+
+@media screen and (max-width: 1366px) {
+    .reviews-wrapper .g-review{
+        padding: 0 20px;
+    }
+    .reviews-wrapper .f-review{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 960px){
+    #social-reviews .header.extralarge{
+        padding:0;
+    }
+    .reviews-wrapper{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 568px){
+    #social-reviews .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .port{
+        position: relative !important;
+        max-width: 90%  !important;
+        margin: 0 auto  !important;
+    }
+}
+
+
+body.page-id-308 .content_block2.hide{
+    height: auto !important;
+}
+
+body.page-id-308 .content_block2.hide:after{
+    display: none;
+}
+
+body.page-id-308 .btnFilledStyle.btnAccentColor{
+    display: none;
+}

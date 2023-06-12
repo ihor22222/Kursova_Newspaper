@@ -1,0 +1,15 @@
+.normal.disabled {
+    background-color: #bebfbd !important;
+}
+.el-calendar-day {
+    color:  white;
+}
+.el-calendar__title {
+    color: white;
+}
+.el-calendar__header {
+    color: white;
+}
+input  {
+    box-shadow: 0 0 0 2px #0DA8BC00 !important;
+}

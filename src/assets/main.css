@@ -1,0 +1,9 @@
+@import './base.css';
+
+body.d-flex.h-100.text-center.text-bg-white {
+    background-color: #ffffff;
+}
+div#app {
+    width: 100%;
+}
+
